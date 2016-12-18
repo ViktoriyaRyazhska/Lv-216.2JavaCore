@@ -56,6 +56,8 @@ public class Person {
 	}
 	
 	public void changeName(String newName){
+		String oldStudentName = this.name;
 		setName(newName);
+		System.out.println("The name of "+ oldStudentName + " was changed to " + this.name + ".");
 	}
 }

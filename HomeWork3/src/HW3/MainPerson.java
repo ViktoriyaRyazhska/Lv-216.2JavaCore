@@ -13,6 +13,8 @@ public class MainPerson {
 		System.out.println(person3);
 		System.out.println(person4);
 		System.out.println(person5);
+		person5.changeName("Viktor");
+		System.out.println(person5);
 	}
 
 }
