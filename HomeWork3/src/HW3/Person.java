@@ -7,8 +7,8 @@ public class Person {
 	private String name;
 	private int birthYear;
 	
-	public Person(){
-		input();
+	public Person(Scanner scaner){
+		input(scaner);
 	}
 	
 	public Person(String name, int birthYear){
@@ -36,8 +36,7 @@ public class Person {
 		} else return 0;
 	}
 	
-	public void input(){
-		Scanner sc = new Scanner(System.in);
+	public void input(Scanner sc){
 		System.out.print("Input name: ");
 		this.name = sc.nextLine();
 		System.out.println();
