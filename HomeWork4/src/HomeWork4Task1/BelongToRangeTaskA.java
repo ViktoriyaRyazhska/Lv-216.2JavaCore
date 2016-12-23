@@ -9,10 +9,16 @@ import java.util.Scanner;
  */
 public class BelongToRangeTaskA {
 	
-	static void belongToRange(float num){
+	public static void belongToRange(float num){
 		if((num >= -5)&&(num <= 5)){
 			System.out.println(num + " belongs [-5;5] range.");
 		}else System.out.println(num + " not belongs [-5;5] range.");
+	}
+	
+	public static boolean isBelongToRange(float num){
+		if((num >= -5)&&(num <= 5)){
+			return true;
+		}else return false;
 	}
 	
 	public static void main(String[] args) {
