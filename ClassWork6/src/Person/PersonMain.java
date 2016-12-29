@@ -10,8 +10,11 @@ public class PersonMain {
 		for(int i = 0; i < person.length; i++){
 			person[i].print();
 		}
-		person[1].salary();
-		person[2].salary();
+		for(int i = 0; i < person.length; i++){
+			if (person[i] instanceof Staff) {
+				person[i].salary();
+			}
+		}
 
 	}
 
