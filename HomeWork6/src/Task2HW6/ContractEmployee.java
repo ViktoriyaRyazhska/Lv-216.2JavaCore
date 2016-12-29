@@ -1,6 +1,6 @@
 package Task2HW6;
 
-public class ContractEmployee extends Employee implements ICalculate {
+public class ContractEmployee extends Employee {
 
 	private double hourlyPaid;
 	private String federalTaxIdMember;
