@@ -2,12 +2,10 @@ package Task2HW6;
 
 public class ContractEmployee extends Employee implements ICalculate {
 
-	private String name;
 	private double hourlyPaid;
 	private String federalTaxIdMember;
 	private int hours;
 	private double rate;
-	private double averageMonthlySalary=0;
 	
 	public ContractEmployee(String name, int hours, double rate, String federalTaxIdMember) {
 		super();
@@ -17,14 +15,6 @@ public class ContractEmployee extends Employee implements ICalculate {
 		this.federalTaxIdMember = federalTaxIdMember;
 	}
 		
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public double getHourlyPaid() {
 		return hourlyPaid;
 	}
@@ -57,14 +47,6 @@ public class ContractEmployee extends Employee implements ICalculate {
 		this.rate = rate;
 	}
 
-	public double getAverageMonthlySalary() {
-		return averageMonthlySalary;
-	}
-
-	public void setAverageMonthlySalary(double averageMonthlySalary) {
-		this.averageMonthlySalary = averageMonthlySalary;
-	}
-
 	@Override
 	public double calculatePay() {
 		setHourlyPaid(hours*rate);
@@ -73,7 +55,8 @@ public class ContractEmployee extends Employee implements ICalculate {
 
 	@Override
 	public String toString() {
-		return "ContractEmployee [name=" + name + ", "
+		return "ContractEmployee [employeeld=" + employeeld + ", "
+				+ "name=" + name + ", "
 				+ "federalTaxIdMember=" + federalTaxIdMember + ", "
 				+ "hours=" + hours + ", "
 				+ "rate=" + rate + ", "
