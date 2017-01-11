@@ -1,0 +1,4 @@
+Number of lines: 5
+The longest line is: From 2012 to now I study at Lviv Polytechnic National University
+Name: Oleh
+Birthday date: 23.08.1994

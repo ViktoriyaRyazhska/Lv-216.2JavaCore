@@ -1,0 +1,5 @@
+Hello, my name is Oleh Khlibkevych
+I was born 23.08.1994 in Ivano-Frankivsk
+From 2001 to 2012 I studied in school
+From 2012 to now I study at Lviv Polytechnic National University
+Now I learn Java in SoftServe IT Academy
