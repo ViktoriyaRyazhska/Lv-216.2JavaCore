@@ -41,7 +41,7 @@ public class MainFileInputOutputTask3CW10 {
         }
         System.out.println("The longest line (has " + max_line_count + " symbols): " + list_of_strings.get(index_max_string_count));
         System.out.println("The shortest line (has " + min_line_count + " symbols): " + list_of_strings.get(index_min_string_count));
-	}
+	} 
 	
 	public static void wordContainsinLine(List<String> list_of_strings, String word) {
 		String s = word;
