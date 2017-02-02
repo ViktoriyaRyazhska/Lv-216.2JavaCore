@@ -1,5 +1,8 @@
 *.class
 
+#config files added to ignor-list
+.*
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
